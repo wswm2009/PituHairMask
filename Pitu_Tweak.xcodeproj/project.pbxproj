@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2763D25D3E2477B0C2163537 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C204DB83BB1C06BB5B045EF /* libPods.a */; };
+		A84CA7D71C853AE900DC53CA /* YYHooK.mm in Sources */ = {isa = PBXBuildFile; fileRef = A84CA7D51C853AE900DC53CA /* YYHooK.mm */; };
+		A84CA7D81C853AE900DC53CA /* YYHooK.h in Headers */ = {isa = PBXBuildFile; fileRef = A84CA7D61C853AE900DC53CA /* YYHooK.h */; };
+		A84CA8471C88159300DC53CA /* THCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A84CA8451C88159300DC53CA /* THCircularProgressView.m */; };
+		A84CA8481C88159300DC53CA /* THCircularProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = A84CA8461C88159300DC53CA /* THCircularProgressView.h */; };
+		A84CA8781C8D60B300DC53CA /* RequestPostUploadHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A84CA8771C8D60B300DC53CA /* RequestPostUploadHelper.m */; };
+		A87952801C7D974F00306683 /* Pitu_Tweak.h in Headers */ = {isa = PBXBuildFile; fileRef = A879527F1C7D974F00306683 /* Pitu_Tweak.h */; };
+		A87952821C7D97B000306683 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87952811C7D97B000306683 /* UIKit.framework */; };
+		A87952841C7D97B900306683 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87952831C7D97B900306683 /* CoreImage.framework */; };
+		A87952861C7D97C400306683 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87952851C7D97C400306683 /* CoreMedia.framework */; };
+		A87952881C7D97CB00306683 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87952871C7D97CB00306683 /* CoreGraphics.framework */; };
+		A879528A1C7D97D300306683 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87952891C7D97D300306683 /* CoreVideo.framework */; };
+		A879528D1C7EA88F00306683 /* YYHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = A879528B1C7EA88F00306683 /* YYHelper.mm */; };
+		A879528E1C7EA88F00306683 /* YYHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A879528C1C7EA88F00306683 /* YYHelper.h */; };
+		A8B4597C1C7D9508005B8C19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B4597B1C7D9508005B8C19 /* Foundation.framework */; };
+		A8B459871C7D9508005B8C19 /* Pitu_Tweak.mm in Sources */ = {isa = PBXBuildFile; fileRef = A8B459861C7D9508005B8C19 /* Pitu_Tweak.mm */; };
+		A8B459921C7D9573005B8C19 /* substrate.h in Headers */ = {isa = PBXBuildFile; fileRef = A8B459911C7D9573005B8C19 /* substrate.h */; };
+		A8B459941C7D95A6005B8C19 /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B459931C7D95A6005B8C19 /* libsubstrate.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F141AEA1E1E02084C947FDA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7C204DB83BB1C06BB5B045EF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84CA7D51C853AE900DC53CA /* YYHooK.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YYHooK.mm; sourceTree = "<group>"; };
+		A84CA7D61C853AE900DC53CA /* YYHooK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHooK.h; sourceTree = "<group>"; };
+		A84CA8451C88159300DC53CA /* THCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THCircularProgressView.m; sourceTree = "<group>"; };
+		A84CA8461C88159300DC53CA /* THCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCircularProgressView.h; sourceTree = "<group>"; };
+		A84CA8771C8D60B300DC53CA /* RequestPostUploadHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestPostUploadHelper.m; sourceTree = "<group>"; };
+		A84CA8791C8D60C700DC53CA /* RequestPostUploadHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestPostUploadHelper.h; sourceTree = "<group>"; };
+		A879527F1C7D974F00306683 /* Pitu_Tweak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pitu_Tweak.h; sourceTree = "<group>"; };
+		A87952811C7D97B000306683 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A87952831C7D97B900306683 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		A87952851C7D97C400306683 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A87952871C7D97CB00306683 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A87952891C7D97D300306683 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		A879528B1C7EA88F00306683 /* YYHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YYHelper.mm; sourceTree = "<group>"; };
+		A879528C1C7EA88F00306683 /* YYHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHelper.h; sourceTree = "<group>"; };
+		A8B459781C7D9508005B8C19 /* Pitu_Tweak.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = Pitu_Tweak.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8B4597B1C7D9508005B8C19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A8B459801C7D9508005B8C19 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		A8B459811C7D9508005B8C19 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		A8B459831C7D9508005B8C19 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		A8B459841C7D9508005B8C19 /* Pitu_Tweak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pitu_Tweak-Prefix.pch"; sourceTree = "<group>"; };
+		A8B459861C7D9508005B8C19 /* Pitu_Tweak.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Pitu_Tweak.mm; sourceTree = "<group>"; };
+		A8B4598B1C7D9508005B8C19 /* Pitu_Tweak.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Pitu_Tweak.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/Pitu_Tweak.plist; sourceTree = "<group>"; };
+		A8B459911C7D9573005B8C19 /* substrate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = substrate.h; path = ../../../../../opt/iOSOpenDev/include/substrate.h; sourceTree = "<group>"; };
+		A8B459931C7D95A6005B8C19 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = ../../../../opt/iOSOpenDev/lib/libsubstrate.dylib; sourceTree = "<group>"; };
+		D411EE34AD703E05BAA801F2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8B459741C7D9508005B8C19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B4597C1C7D9508005B8C19 /* Foundation.framework in Frameworks */,
+				A879528A1C7D97D300306683 /* CoreVideo.framework in Frameworks */,
+				A87952881C7D97CB00306683 /* CoreGraphics.framework in Frameworks */,
+				A87952861C7D97C400306683 /* CoreMedia.framework in Frameworks */,
+				A87952841C7D97B900306683 /* CoreImage.framework in Frameworks */,
+				A87952821C7D97B000306683 /* UIKit.framework in Frameworks */,
+				A8B459941C7D95A6005B8C19 /* libsubstrate.dylib in Frameworks */,
+				2763D25D3E2477B0C2163537 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8B4596D1C7D9508005B8C19 = {
+			isa = PBXGroup;
+			children = (
+				A8B4597D1C7D9508005B8C19 /* Pitu_Tweak */,
+				A8B4597A1C7D9508005B8C19 /* Frameworks */,
+				A8B459791C7D9508005B8C19 /* Products */,
+				D09654597AC7197EFEC85CAC /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A8B459791C7D9508005B8C19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8B459781C7D9508005B8C19 /* Pitu_Tweak.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8B4597A1C7D9508005B8C19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A87952891C7D97D300306683 /* CoreVideo.framework */,
+				A87952871C7D97CB00306683 /* CoreGraphics.framework */,
+				A87952851C7D97C400306683 /* CoreMedia.framework */,
+				A87952831C7D97B900306683 /* CoreImage.framework */,
+				A87952811C7D97B000306683 /* UIKit.framework */,
+				A8B459931C7D95A6005B8C19 /* libsubstrate.dylib */,
+				A8B4597B1C7D9508005B8C19 /* Foundation.framework */,
+				7C204DB83BB1C06BB5B045EF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8B4597D1C7D9508005B8C19 /* Pitu_Tweak */ = {
+			isa = PBXGroup;
+			children = (
+				A84CA8451C88159300DC53CA /* THCircularProgressView.m */,
+				A84CA8461C88159300DC53CA /* THCircularProgressView.h */,
+				A84CA7D51C853AE900DC53CA /* YYHooK.mm */,
+				A84CA7D61C853AE900DC53CA /* YYHooK.h */,
+				A879528B1C7EA88F00306683 /* YYHelper.mm */,
+				A879528C1C7EA88F00306683 /* YYHelper.h */,
+				A879527F1C7D974F00306683 /* Pitu_Tweak.h */,
+				A8B459911C7D9573005B8C19 /* substrate.h */,
+				A8B459861C7D9508005B8C19 /* Pitu_Tweak.mm */,
+				A84CA8771C8D60B300DC53CA /* RequestPostUploadHelper.m */,
+				A84CA8791C8D60C700DC53CA /* RequestPostUploadHelper.h */,
+				A8B4597E1C7D9508005B8C19 /* Package */,
+				A8B459821C7D9508005B8C19 /* Supporting Files */,
+			);
+			path = Pitu_Tweak;
+			sourceTree = "<group>";
+		};
+		A8B4597E1C7D9508005B8C19 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				A8B4597F1C7D9508005B8C19 /* DEBIAN */,
+				A8B459881C7D9508005B8C19 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		A8B4597F1C7D9508005B8C19 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				A8B459801C7D9508005B8C19 /* control.txt */,
+				A8B459811C7D9508005B8C19 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		A8B459821C7D9508005B8C19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8B459831C7D9508005B8C19 /* PackageVersion.plist */,
+				A8B459841C7D9508005B8C19 /* Pitu_Tweak-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8B459881C7D9508005B8C19 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A8B459891C7D9508005B8C19 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		A8B459891C7D9508005B8C19 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				A8B4598A1C7D9508005B8C19 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		A8B4598A1C7D9508005B8C19 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				A8B4598B1C7D9508005B8C19 /* Pitu_Tweak.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+		D09654597AC7197EFEC85CAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D411EE34AD703E05BAA801F2 /* Pods.debug.xcconfig */,
+				0F141AEA1E1E02084C947FDA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A8B459751C7D9508005B8C19 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A879528E1C7EA88F00306683 /* YYHelper.h in Headers */,
+				A84CA7D81C853AE900DC53CA /* YYHooK.h in Headers */,
+				A8B459921C7D9573005B8C19 /* substrate.h in Headers */,
+				A87952801C7D974F00306683 /* Pitu_Tweak.h in Headers */,
+				A84CA8481C88159300DC53CA /* THCircularProgressView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A8B459771C7D9508005B8C19 /* Pitu_Tweak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8B4598E1C7D9508005B8C19 /* Build configuration list for PBXNativeTarget "Pitu_Tweak" */;
+			buildPhases = (
+				75462032BAC9A615B8E52A23 /* Check Pods Manifest.lock */,
+				A8B459721C7D9508005B8C19 /* ShellScript */,
+				A8B459731C7D9508005B8C19 /* Sources */,
+				A8B459741C7D9508005B8C19 /* Frameworks */,
+				A8B459751C7D9508005B8C19 /* Headers */,
+				A8B459761C7D9508005B8C19 /* ShellScript */,
+				02BB6E6125AF6A740AC9FE6E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pitu_Tweak;
+			productName = Pitu_Tweak;
+			productReference = A8B459781C7D9508005B8C19 /* Pitu_Tweak.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8B4596E1C7D9508005B8C19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				TargetAttributes = {
+					A8B459771C7D9508005B8C19 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = GWM79UVWJ8;
+					};
+				};
+			};
+			buildConfigurationList = A8B459711C7D9508005B8C19 /* Build configuration list for PBXProject "Pitu_Tweak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A8B4596D1C7D9508005B8C19;
+			productRefGroup = A8B459791C7D9508005B8C19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8B459771C7D9508005B8C19 /* Pitu_Tweak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02BB6E6125AF6A740AC9FE6E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75462032BAC9A615B8E52A23 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8B459721C7D9508005B8C19 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
+		};
+		A8B459761C7D9508005B8C19 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8B459731C7D9508005B8C19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84CA8471C88159300DC53CA /* THCircularProgressView.m in Sources */,
+				A84CA8781C8D60B300DC53CA /* RequestPostUploadHelper.m in Sources */,
+				A8B459871C7D9508005B8C19 /* Pitu_Tweak.mm in Sources */,
+				A879528D1C7EA88F00306683 /* YYHelper.mm in Sources */,
+				A84CA7D71C853AE900DC53CA /* YYHooK.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A8B4598C1C7D9508005B8C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		A8B4598D1C7D9508005B8C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		A8B4598F1C7D9508005B8C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D411EE34AD703E05BAA801F2 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pitu_Tweak",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pitu_Tweak/Pitu_Tweak-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 192.168.2.4;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = NO;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		A8B459901C7D9508005B8C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F141AEA1E1E02084C947FDA /* Pods.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pitu_Tweak",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pitu_Tweak/Pitu_Tweak-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 192.168.2.4;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = NO;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8B459711C7D9508005B8C19 /* Build configuration list for PBXProject "Pitu_Tweak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8B4598C1C7D9508005B8C19 /* Debug */,
+				A8B4598D1C7D9508005B8C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8B4598E1C7D9508005B8C19 /* Build configuration list for PBXNativeTarget "Pitu_Tweak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8B4598F1C7D9508005B8C19 /* Debug */,
+				A8B459901C7D9508005B8C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8B4596E1C7D9508005B8C19 /* Project object */;
+}
